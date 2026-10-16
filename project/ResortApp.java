@@ -42,7 +42,7 @@ public class ResortApp extends JFrame {
         cardManager.show(containerPanel, pageName);
     }
 
-    //PAGE 1: LANDING (MAIN) PAGE
+    //1 MAINPAGE
     class MainMenuPage extends JPanel {
         public MainMenuPage(ResortApp app) {
             setLayout(new GridBagLayout());
@@ -76,7 +76,7 @@ public class ResortApp extends JFrame {
         }
     }
 
-    //PAGE 2: DATA ENTRY PAGE
+    //2 DATA ENTRY PAGE
     class CheckInPage extends JPanel {
         private JComboBox<String> typeBox;
         private JTextField txtRoom, txtGuest, txtRate, txtFloor;
@@ -229,7 +229,7 @@ public class ResortApp extends JFrame {
         }
     }
 
-    // PAGE 3: SEARCH PAGE
+    //  3SEARCH PAGE
     class SearchCheckoutPage extends JPanel {
         private JComboBox<String> searchCriteriaBox;
         private JTextField txtSearchValue;
